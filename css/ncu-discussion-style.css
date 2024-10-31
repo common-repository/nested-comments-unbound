@@ -1,0 +1,24 @@
+/*
+@package: Nested Comments Unbound
+*/
+/* 
+    Created on : Feb 21, 2017, 2:07:24 PM
+    Author     : CK MacLeod
+*/
+/*.form-table td fieldset label[for=thread_comments],.form-table td fieldset label[for=thread_comments_depth] {
+    background-color: darkgray;
+}*/
+#thread_comments, #thread_comments_depth {
+    background-color: darkgray;
+    position: relative;
+}
+#thread_comments:before {
+    content: 'Set by Nested Comments Unbound Plug-In' ;
+    position: absolute;
+    top: -1em;
+    left: 1em;
+    width: 250px;
+    font-size: .8em;
+    color: #f42b00;
+    font-family: Arial, sans-serif;
+}
